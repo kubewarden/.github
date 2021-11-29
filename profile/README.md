@@ -1,59 +1,60 @@
-# About Kubewarden
+Kubewarden is a policy engine for Kubernetes. It helps with keeping your Kubernetes clusters secure 🔐 and compliant ✔️
 
-Kubewarden is a policy engine for Kubernetes. It makes possible to
-keep Kubernetes clusters secure and compliant by enforcing user
-defined policies.
+Kubewarden policies can be written using regular programming languages or Domain Specific Languages (DSL).
 
-Kubewarden policies can be written using regular programming
-languages or even Domain Specific Languages (DSL).
+Policies are compiled into [WebAssembly](https://webassembly.org/) modules that are then distributed using traditional [container registries](https://landscape.cncf.io/card-mode?category=container-registry&grouping=category).
 
-Policies are compiled into WebAssembly modules that are then
-distributed using traditional container registries.
+## Getting Started 📚
 
-## Getting started
+Take a look at our [documentation](https://docs.kubewarden.io) 📖
+Stay up to date by reading our [official blog](https://www.kubewarden.io/blog/) 📣 and by following us on [Twitter](https://twitter.com/kubewarden).
 
-The best place to start your journey with Kubewarden is our [official documentation](https://docs.kubewarden.io).
+Get in touch with us on Slack: join the [`kubewarden` channel](https://kubernetes.slack.com/?redir=%2Fmessages%2Fkubewarden) hosted by the official Kubernetes workspace 👨‍💻 💬 👩‍💻
 
-You can stay up to date about the Kubewarden project by reading our [official blog](https://www.kubewarden.io/blog/)
-and by following us on [Twitter](https://twitter.com/kubewarden).
+## Enforcing Policies 🔒
 
-Finally, don't forget to discover ready to use policies by visiting the
-[Policy Hub](https://hub.kubewarden.io).
+Discover ready to use policies by visiting the [Policy Hub](https://hub.kubewarden.io) 📦
 
-## Getting in touch
+Don't forget to take a look at [`kwctl`](https://github.com/kubewarden/kwctl), our handy multi-purpose tool for managing policies 🛠️ 🧰
 
-You can interact with the Kubewarden developers and the whole community
-on Slack. You can find us by joining the [`kubewarden` channel](https://kubernetes.slack.com/?redir=%2Fmessages%2Fkubewarden)
-hosted by the official Kubernetes workspace.
+## Writing policies 📝
 
-## Getting involved
+Interested in writing a new policy?
+  1. Checkout the step-by-step tutorials inside of our [documentation](https://docs.kubewarden.io) 📖
+  1. Add [`kwctl`](https://github.com/kubewarden/kwctl) to your toolbox 🛠️ 🧰
+  1. Pick one of the languages from below
 
-The [Kubewarden](https://github.com/kubewarden) organization on
-GitHub has quite some repositories associated. Don't be scared,
-this section will guide you through them.
+| Language | Project Template | SDK | Validation | Mutation | Maturity |
+|----------|------------------|-----|------------|----------|----------|
+| Rust     | [:octocat:](https://github.com/kubewarden/rust-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-rust) | ✔️ | ✔️ | 🔝 |
+| Go ([TinyGo](https://tinygo.org/)) | [:octocat:](https://github.com/kubewarden/go-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-go) | ✔️ | ❌ | ↗️ |
+| Swift | [:octocat:](https://github.com/kubewarden/swift-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-swift) | ✔️ | ✔️ | ↗️ |
+| Rego - Open Policy Agent | [:octocat:](https://github.com/kubewarden/opa-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | ↗️ |
+| Rego - Gatekeeper | [:octocat:](https://github.com/kubewarden/gatekeeper-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | ↗️ |
 
-### Policy templates
+Can't find your favorite language? 🔍 Reach out to us and let's have a chat!
 
-We provide template repositories that can be used to quickly scaffold
-new Kubewarden policies.
+## Useful GitHub tags :octocat: 🏷️
 
-The repositories feature working code and automation to build, test and release
-the final policy.
+Use these tags to find repositories over **all** GitHub 🗺️ 🌌
 
-These repositories follow the `<language>-policy-template` naming convention.
-They can be easily found by using the
-[`kubewarden-policy-template` GitHub Tag](https://github.com/topics/kubewarden-policy-template).
+| Purpose | Tag |
+|---------|-----|
+| Policy Template | [`kubewarden-policy-template`](https://github.com/topics/kubewarden-policy-template) |
+| Policy | [`kubewarden-policy`](https://github.com/topics/kubewarden-policy) |
 
-### Policies
+## Contributing 🙌
 
-The source code of the policies maintained by the Kubewarden developers can be
-found inside of the repositories following the `<policy topic>-policy` naming convention.
-All the policies replacing Kubernetes Pod Security Policies (aka PSP) follow
-the `<policy-topic>-psp-policy` naming convention.
+That's fantastic news! 🥳
 
-All the policy reposotories can be easily found by using the
-[`kubewarden-policy` GitHub Tag](https://github.com/topics/kubewarden-policy).
+Other than our [policy templates](https://github.com/topics/kubewarden-policy-template), [policy SDKs](https://github.com/topics/kubewarden-policy-sdk) and [policies](https://github.com/topics/kubewarden-policy), we have the following "core" projects:
 
-> **Note well:** this can return results outside of the `kubewarden` GitHub organization.
+| Project | Scope | Language |
+|---------|---------|--------|
+| [`kubewarden-controller`](https://github.com/kubewarden/kubewarden-controller) | Kubernetes integration point| Go |
+| [`policy-server`](https://github.com/kubewarden/policy-server) | Run Kubewarden policies | Rust |
+| [`kwctl`](https://github.com/kubewarden/kwctl) | Kubewarden policy multi-purpose cli tool | Rust |
+
+
 
 
