@@ -1,3 +1,5 @@
+![GitHub Org's stars](https://img.shields.io/github/stars/kubewarden?style=for-the-badge)![GitHub](https://img.shields.io/github/license/kubewarden/policy-server?style=for-the-badge)
+
 Kubewarden is a policy engine for Kubernetes. It helps with keeping your Kubernetes clusters secure 🔐 and compliant ✔️
 
 Kubewarden policies can be written using regular programming languages or Domain Specific Languages (DSL).
