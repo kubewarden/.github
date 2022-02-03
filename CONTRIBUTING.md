@@ -2,7 +2,7 @@
 
 Thanks for your interest in contributing to Kubewarden.
 
-They are different ways you could help us simplify the adoption of policy as code.
+There are different ways you could help us simplify the adoption of policy as code.
 
 ## Feedback
 
