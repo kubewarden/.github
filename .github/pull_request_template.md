@@ -1,5 +1,3 @@
-# Title
-
 ## Description
 
 <!-- Please provide the link to the GitHub issue you are addressing -->
