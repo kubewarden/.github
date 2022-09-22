@@ -51,9 +51,9 @@ Other than our [policy templates](https://github.com/topics/kubewarden-policy-te
 
 | Project | Scope | Language |
 |---------|---------|--------|
-| [`kubewarden-controller`](https://github.com/kubewarden/kubewarden-controller) | Kubernetes integration point| Go |
-| [`policy-server`](https://github.com/kubewarden/policy-server) | Run Kubewarden policies | Rust |
-| [`kwctl`](https://github.com/kubewarden/kwctl) | Kubewarden policy multi-purpose cli tool | Rust |
+| [`kubewarden-controller`](https://github.com/kubewarden/kubewarden-controller/contribute) | Kubernetes integration point| Go |
+| [`policy-server`](https://github.com/kubewarden/policy-server/contribute) | Run Kubewarden policies | Rust |
+| [`kwctl`](https://github.com/kubewarden/kwctl/contribute) | Kubewarden policy multi-purpose cli tool | Rust |
 
 
 
