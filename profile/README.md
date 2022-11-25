@@ -27,7 +27,7 @@ Interested in writing a new policy?
 | Language | Project Template | SDK | Validation | Mutation | Maturity |
 |----------|------------------|-----|------------|----------|----------|
 | Rust     | [:octocat:](https://github.com/kubewarden/rust-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-rust) | ✔️ | ✔️ | 🔝 |
-| Go ([TinyGo](https://tinygo.org/)) | [:octocat:](https://github.com/kubewarden/go-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-go) | ✔️ | ❌ | ↗️ |
+| Go ([TinyGo](https://tinygo.org/)) | [:octocat:](https://github.com/kubewarden/go-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-go) | ✔️ | ✔️ | ↗️ |
 | Swift | [:octocat:](https://github.com/kubewarden/swift-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-swift) | ✔️ | ✔️ | ↗️ |
 | Rego - Open Policy Agent | [:octocat:](https://github.com/kubewarden/opa-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | 🔝 |
 | Rego - Gatekeeper | [:octocat:](https://github.com/kubewarden/gatekeeper-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | 🔝 |
