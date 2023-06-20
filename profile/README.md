@@ -31,6 +31,8 @@ Interested in writing a new policy?
 | Swift | [:octocat:](https://github.com/kubewarden/swift-policy-template) | [:octocat:](https://github.com/kubewarden/policy-sdk-swift) | ✔️ | ✔️ | ↗️ |
 | Rego - Open Policy Agent | [:octocat:](https://github.com/kubewarden/opa-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | 🔝 |
 | Rego - Gatekeeper | [:octocat:](https://github.com/kubewarden/gatekeeper-policy-template) | [Rego built-ins](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions) | ✔️ | ❌ | 🔝 |
+| DotNet     |❌  | [:octocat:](https://github.com/kubewarden/policy-sdk-rust) | ✔️ | ✔️ | ↗️  |
+
 
 Can't find your favorite language? 🔍 Reach out to us and let's have a chat!
 
