@@ -13,7 +13,7 @@ Get in touch with us on Slack: join the [`kubewarden` channel](https://kubernete
 
 ## Enforcing Policies 🔒
 
-Discover ready to use policies by visiting the [Policy Hub](https://artifacthub.io/packages/search?kind=13&sort=relevance&page=1) 📦
+Discover ready to use policies by visiting [ArtifactHub](https://artifacthub.io/packages/search?kind=13&sort=relevance&page=1) 📦
 
 Don't forget to take a look at [`kwctl`](https://github.com/kubewarden/kwctl), our handy multi-purpose tool for managing policies 🛠️ 🧰
 
