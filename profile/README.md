@@ -4,6 +4,10 @@ Kubewarden policies can be written using regular programming languages or Domain
 
 Policies are compiled into [WebAssembly](https://webassembly.org/) modules that are then distributed using traditional [container registries](https://landscape.cncf.io/card-mode?category=container-registry&grouping=category).
 
+If you want more information about the organization of the project, please
+check the [community](https://github.com/kubewarden/community) repository.
+
+
 ## Getting Started 📚
 
 Take a look at our [documentation](https://docs.kubewarden.io) 📖
