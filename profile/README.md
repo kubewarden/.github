@@ -1,14 +1,13 @@
-Kubewarden is a policy engine for Kubernetes. It helps with keeping your Kubernetes clusters secure 🔐 and compliant ✔️
+Kubewarden is a policy engine for Kubernetes. It helps with keeping your Kubernetes clusters secure 🔐 and compliant ✔.
 
 Kubewarden policies can be written using regular programming languages or Domain Specific Languages (DSL).
 
 Policies are compiled into [WebAssembly](https://webassembly.org/) modules that are then distributed using traditional [container registries](https://landscape.cncf.io/card-mode?category=container-registry&grouping=category).
 
-If you want more information about the organization of the project, please
-check the [community](https://github.com/kubewarden/community) repository.
-
 
 ## Getting Started 📚
+
+Check our first-stop [kubewarden/community](https://github.com/kubewarden/community) 👋 repository for information about the organization of the project.
 
 Take a look at our [documentation](https://docs.kubewarden.io) 📖
 Stay up to date by reading our [official blog](https://www.kubewarden.io/blog/) 📣 and by following us on [Twitter](https://twitter.com/kubewarden).
@@ -48,12 +47,15 @@ Use these tags to find repositories over **all** GitHub 🗺️ 🌌
 |---------|-----|
 | Policy Template | [`kubewarden-policy-template`](https://github.com/topics/kubewarden-policy-template) |
 | Policy | [`kubewarden-policy`](https://github.com/topics/kubewarden-policy) |
+| Policy SDK | [`kubewarden-policy-sdk`](https://github.com/topics/kubewarden-policy-sdk) |
 
 ## Contributing 🙌
 
 That's fantastic news! 🥳
 
-Other than our [policy templates](https://github.com/topics/kubewarden-policy-template), [policy SDKs](https://github.com/topics/kubewarden-policy-sdk) and [policies](https://github.com/topics/kubewarden-policy), we have the following "core" projects:
+Check our [general CONTRIBUTING.md docs](https://github.com/kubewarden/community/blob/main/CONTRIBUTING.md).
+
+Quick links to "core" projects:
 
 | Project | Scope | Language |
 |---------|---------|--------|
