@@ -23,7 +23,12 @@ Don't forget to take a look at [`kwctl`](https://github.com/kubewarden/kwctl), o
 
 Interested in writing a new policy?
 
-Checkout the [step-by-step tutorials](https://docs.kubewarden.io/tutorials/writing-policies) inside of our documentation 📖
+Kubewarden allows you to write policies using a variety of programming languages, including Rust, Go, Rego, CEL and others.
+
+These are some useful resources to get you started:
+ - [Step-by-step tutorials](https://docs.kubewarden.io/tutorials/writing-policies) inside of our documentation 📖
+ - [Policy SDK](https://github.com/kubewarden/community/#policies-sdks): overview of the Policy SDKs available, and their maturity level 📚
+ - [Policy templates](https://github.com/kubewarden/community/#policies-templates): boilerplate code to help you get started 🚀  
 
 ## Useful GitHub tags :octocat: 🏷️
 
