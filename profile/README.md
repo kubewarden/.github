@@ -9,7 +9,7 @@ Policies are compiled into [WebAssembly](https://webassembly.org/) modules that 
 Check our first-stop [kubewarden/community](https://github.com/kubewarden/community) 👋 repository for information about the organization of the project.
 
 Take a look at our [documentation](https://docs.kubewarden.io) 📖
-Stay up to date by reading our [official blog](https://www.kubewarden.io/blog/) 📣 and by following us on [Twitter](https://twitter.com/kubewarden).
+Stay up to date by reading our [official blog](https://www.kubewarden.io/blog/) 📣 and by following us on [Bluesky](https://bsky.app/profile/kubewarden.bsky.social) or [Mastodon](https://hachyderm.io/@kubewarden).
 
 Get in touch with us on Slack: join the [`kubewarden` channel](https://kubernetes.slack.com/?redir=%2Fmessages%2Fkubewarden) hosted by the official Kubernetes workspace 👨‍💻 💬 👩‍💻
 
