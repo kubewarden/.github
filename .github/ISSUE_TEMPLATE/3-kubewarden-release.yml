@@ -32,3 +32,4 @@ body:
           - [ ] Check if kubewarden-controller, kubewarden-defaults and kubewarden-crds charts have the same `appVersion`
           - [ ] Check if CI for the Helm chart PR is green. If so, merge it.
         - [ ] Write and release the blog post about the release
+          - [ ] Publish posts in Mastodon, Bluesky
