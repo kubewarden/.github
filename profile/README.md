@@ -17,7 +17,7 @@ Get in touch with us on Slack: join the [`kubewarden` channel](https://kubernete
 
 Discover ready to use policies by visiting [ArtifactHub](https://artifacthub.io/packages/search?kind=13&sort=relevance&page=1) 📦
 
-Don't forget to take a look at [`kwctl`](https://github.com/kubewarden/kwctl), our handy multi-purpose tool for managing policies 🛠️ 🧰
+Don't forget to take a look at [`kwctl`](https://github.com/kubewarden/kubewarden-controller/tree/main/docs/kwctl), our handy multi-purpose tool for managing policies 🛠️ 🧰
 
 ## Writing policies 📝
 
@@ -51,5 +51,5 @@ Quick links to "core" projects:
 | Project | Scope | Language |
 |---------|---------|--------|
 | [`kubewarden-controller`](https://github.com/kubewarden/kubewarden-controller/contribute) | Kubernetes integration point| Go |
-| [`policy-server`](https://github.com/kubewarden/policy-server/contribute) | Run Kubewarden policies | Rust |
-| [`kwctl`](https://github.com/kubewarden/kwctl/contribute) | Kubewarden policy multi-purpose cli tool | Rust |
+| [`policy-server`](https://github.com/kubewarden/kubewarden-controller/blob/main/crates/policy-server/CONTRIBUTING.md) | Run Kubewarden policies | Rust |
+| [`kwctl`](https://github.com/kubewarden/kubewarden-controller/blob/main/crates/kwctl/CONTRIBUTING.md) | Kubewarden policy multi-purpose cli tool | Rust |
