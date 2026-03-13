@@ -1,6 +1,7 @@
 ## Description
 
 <!-- Please provide the link to the GitHub issue you are addressing -->
+
 Fix #XXX
 
 <!-- Please provide the link to the documentation related to your change, if applicable -->
@@ -9,6 +10,7 @@ Fix #XXX
 ## Test
 
 <!-- Please provides a short description about how to test your pullrequest -->
+
 To test this pull request, you can run the following commands:
 
 <!--
@@ -27,3 +29,7 @@ go test
 ### Potential improvement
 
 <!-- Please describe, if any, potential improvement that you are envisioning -->
+
+## Checklist
+
+- [ ] I have read and understood the [Kubewarden AI Policy](https://github.com/kubewarden/community/blob/main/AI_POLICY.md)
