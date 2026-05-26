@@ -18,7 +18,9 @@ Dependencies are evaluated before being introduced to ensure they:
 
 1. are actively maintained
 2. are maintained by trustworthy maintainers
-3. are licensed in a way not to impact the Kubewarden license based on [the CNCF license allowlist](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
+3. are licensed in a way not to impact the Kubewarden license based on [the
+   CNCF license
+allowlist](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).
 
 These evaluations vary from dependency to dependencies.
 
@@ -68,6 +70,27 @@ On receipt the security team will:
   and/or further information requests.
 - Once the reported security bug has been addressed we will notify the
   Researcher, who is then welcome to optionally disclose publicly.
+
+### What information to provide
+
+The information below must be provided in order for the report to be timely and
+effectively analyzed. Reports that miss the required information might be
+considered AI generated spam or reviewed with a lower priority. 
+
+- Project name and version where the issue was observed. If the issue was
+  observed on the source code, the link to the specific code in GitHub instead.
+- Description of the problem.
+- Type of the issue and impact when exploited.
+- Steps to reproduce.
+- A valid proof of concept (POC) exploit (only on a valid system that you are
+  authorized to perform such proof). A working POC is now mandatory as a proof
+  of work (POW) to reduce the noise of AI generated low quality reports.
+- It's mandatory to inform if AI tools were used to find the issue being
+  reported, to automate or to write the report, POC code or possible patch. If
+  this was the case, then inform which AI tools and models were used.
+
+The more information you provide, the faster we will be able to reproduce the
+issue and address your concerns more effectively.
 
 [mailing-list]: https://lists.cncf.io/g/cncf-kubewarden-maintainers
 [slack-room]: https://kubernetes.slack.com/archives/C03L52JRAFM
