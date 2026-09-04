@@ -50,6 +50,6 @@ Quick links to "core" projects:
 
 | Project | Scope | Language |
 |---------|---------|--------|
-| [`kubewarden-controller`](https://github.com/kubewarden/kubewarden-controller/contribute) | Kubernetes integration point| Go |
+| [`adm-controller`](https://github.com/kubewarden/adm-controller/contribute) | Kubernetes integration point| Go |
 | [`policy-server`](https://github.com/kubewarden/kubewarden-controller/blob/main/crates/policy-server/CONTRIBUTING.md) | Run Kubewarden policies | Rust |
 | [`kwctl`](https://github.com/kubewarden/kubewarden-controller/blob/main/crates/kwctl/CONTRIBUTING.md) | Kubewarden policy multi-purpose cli tool | Rust |
